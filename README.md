@@ -1,7 +1,7 @@
 # colonist-extension
 Colonist.io card counter and removes unwanted ads.
 
-![image](colonist-screenshot)
+![image](colonist-screenshot.png)
 
 Steps to use:
 1. Go to chrome://extensions/

@@ -1,0 +1,23 @@
+{
+    "name": "Colonassist",
+    "short_name": "Colonassist",
+    "manifest_version": 2,
+    "author": "Elijah Adams",
+    "description": "Track resources and other statistics in colonist.io",
+    "version": "0.0.1",
+    "icons": {
+        "64": "icon64.png"
+    },
+    "permissions": [
+        "https://colonist.io/*",
+        "https://hexs.io/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://colonist.io/*", "https://hexs.io/*"],
+          "css": ["styles.css"],
+          "run_at": "document_idle",
+          "js": ["explorer.js"]
+        }
+      ]
+}
